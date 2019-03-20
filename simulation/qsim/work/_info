@@ -1,0 +1,115 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/fpga/labs/mips/simulation/qsim
+vhard_block
+Z1 !s110 1551274724
+!i10b 1
+!s100 BU9_7?XNf[;DgRjnD1V`l1
+ICb@Gi<OkNIFI<WiF_3RW40
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1551274722
+Z4 8mips.vo
+Z5 Fmips.vo
+L0 84
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1551274724.000000
+Z8 !s107 mips.vo|
+Z9 !s90 -work|work|mips.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vmips
+R1
+!i10b 1
+!s100 MRW1XHXn3^lNU4mWi<N;L2
+IS]nT]ffJ4Q`gmA=:=hBYa0
+R2
+R0
+R3
+R4
+R5
+Z12 L0 31
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vmips_vlg_vec_tst
+R1
+!i10b 1
+!s100 FdlmEQ1F_B:^9?XljRWgN3
+Ih[NH6JOMz^=QJG2m_M70c2
+R2
+R0
+w1551274720
+Z13 8Waveform.vwf.vt
+Z14 FWaveform.vwf.vt
+Z15 L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+Z16 !s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+voor
+!s110 1551646936
+!i10b 1
+!s100 mW5ff:YZmLPgN0Y:PYb@l0
+IRVe_XzUR@DbC0461:H;OS1
+R2
+R0
+w1551646930
+R4
+R5
+R12
+R6
+r1
+!s85 0
+31
+!s108 1551646936.000000
+R8
+R9
+!i113 1
+R10
+R11
+voor_vlg_vec_tst
+!s110 1551646937
+!i10b 1
+!s100 G<8oRnWQ6[I_YXmgRiR@e0
+I`BGSaHiB]UTTjQ2YP`GFC1
+R2
+R0
+w1551646927
+R13
+R14
+R15
+R6
+r1
+!s85 0
+31
+!s108 1551646937.000000
+!s107 Waveform.vwf.vt|
+R16
+!i113 1
+R10
+R11

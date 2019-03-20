@@ -1,0 +1,11 @@
+module datapath
+(
+  input i_clk, reset,
+  input i_reg_dst, i_op2sel, i_mem2reg, i_we3,
+  input [2:0] i_alu_ctrl,
+  input [31:0] i_instr, i_read_data,
+  output [31:0] o_pc, o_write_data, o_alu
+);
+
+
+endmodule 

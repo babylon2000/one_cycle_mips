@@ -1,0 +1,1395 @@
+# Reading E:/quartus/modelsim_ase/tcl/vsim/pref.tcl
+# do mips_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying E:/quartus/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+E:/fpga/labs/mips {E:/fpga/labs/mips/sign_extend.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:09:37 on Mar 04,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/fpga/labs/mips" E:/fpga/labs/mips/sign_extend.v 
+# -- Compiling module sign_extend
+# 
+# Top level modules:
+# 	sign_extend
+# End time: 17:09:38 on Mar 04,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/fpga/labs/mips {E:/fpga/labs/mips/pc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:09:38 on Mar 04,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/fpga/labs/mips" E:/fpga/labs/mips/pc.v 
+# -- Compiling module pc
+# 
+# Top level modules:
+# 	pc
+# End time: 17:09:38 on Mar 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/fpga/labs/mips {E:/fpga/labs/mips/adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:09:38 on Mar 04,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/fpga/labs/mips" E:/fpga/labs/mips/adder.v 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 17:09:38 on Mar 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/fpga/labs/mips {E:/fpga/labs/mips/mux2in1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:09:38 on Mar 04,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/fpga/labs/mips" E:/fpga/labs/mips/mux2in1.v 
+# -- Compiling module mux2in1
+# 
+# Top level modules:
+# 	mux2in1
+# End time: 17:09:38 on Mar 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/fpga/labs/mips {E:/fpga/labs/mips/register_file.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:09:38 on Mar 04,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/fpga/labs/mips" E:/fpga/labs/mips/register_file.v 
+# -- Compiling module register_file
+# 
+# Top level modules:
+# 	register_file
+# End time: 17:09:38 on Mar 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/fpga/labs/mips {E:/fpga/labs/mips/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:09:38 on Mar 04,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/fpga/labs/mips" E:/fpga/labs/mips/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 17:09:38 on Mar 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/fpga/labs/mips {E:/fpga/labs/mips/main_control.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:09:38 on Mar 04,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/fpga/labs/mips" E:/fpga/labs/mips/main_control.v 
+# -- Compiling module main_control
+# 
+# Top level modules:
+# 	main_control
+# End time: 17:09:38 on Mar 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/fpga/labs/mips {E:/fpga/labs/mips/alu_decoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:09:39 on Mar 04,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/fpga/labs/mips" E:/fpga/labs/mips/alu_decoder.v 
+# -- Compiling module alu_decoder
+# 
+# Top level modules:
+# 	alu_decoder
+# End time: 17:09:39 on Mar 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/fpga/labs/mips {E:/fpga/labs/mips/controller.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:09:39 on Mar 04,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/fpga/labs/mips" E:/fpga/labs/mips/controller.v 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 17:09:39 on Mar 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/fpga/labs/mips {E:/fpga/labs/mips/datapath.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:09:39 on Mar 04,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/fpga/labs/mips" E:/fpga/labs/mips/datapath.v 
+# -- Compiling module datapath
+# 
+# Top level modules:
+# 	datapath
+# End time: 17:09:39 on Mar 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/fpga/labs/mips {E:/fpga/labs/mips/mips.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:09:39 on Mar 04,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/fpga/labs/mips" E:/fpga/labs/mips/mips.v 
+# -- Compiling module mips
+# 
+# Top level modules:
+# 	mips
+# End time: 17:09:39 on Mar 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/fpga/labs/mips {E:/fpga/labs/mips/shift_left_by_2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:09:39 on Mar 04,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/fpga/labs/mips" E:/fpga/labs/mips/shift_left_by_2.v 
+# -- Compiling module shift_left_by_2
+# 
+# Top level modules:
+# 	shift_left_by_2
+# End time: 17:09:39 on Mar 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/fpga/labs/mips {E:/fpga/labs/mips/pc_jmp.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:09:39 on Mar 04,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/fpga/labs/mips" E:/fpga/labs/mips/pc_jmp.v 
+# -- Compiling module pc_jmp
+# 
+# Top level modules:
+# 	pc_jmp
+# End time: 17:09:39 on Mar 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/fpga/labs/mips {E:/fpga/labs/mips/instruction_memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:09:39 on Mar 04,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/fpga/labs/mips" E:/fpga/labs/mips/instruction_memory.v 
+# -- Compiling module instruction_memory
+# 
+# Top level modules:
+# 	instruction_memory
+# End time: 17:09:39 on Mar 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/fpga/labs/mips {E:/fpga/labs/mips/data_memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:09:39 on Mar 04,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/fpga/labs/mips" E:/fpga/labs/mips/data_memory.v 
+# -- Compiling module data_memory
+# 
+# Top level modules:
+# 	data_memory
+# End time: 17:09:40 on Mar 04,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work E:/fpga/labs/mips/mips_core_test.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:10:34 on Mar 04,2019
+# vlog -reportprogress 300 -work work E:/fpga/labs/mips/mips_core_test.v 
+# -- Compiling module mips_core_test
+# 
+# Top level modules:
+# 	mips_core_test
+# End time: 17:10:34 on Mar 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.mips_core_test
+# vsim work.mips_core_test 
+# Start time: 17:10:39 on Mar 04,2019
+# Loading work.mips_core_test
+# Loading work.mips
+# Loading work.controller
+# Loading work.main_control
+# Loading work.alu_decoder
+# Loading work.datapath
+# Loading work.mux2in1
+# Loading work.pc_jmp
+# Loading work.shift_left_by_2
+# Loading work.adder
+# Loading work.pc
+# Loading work.register_file
+# Loading work.sign_extend
+# Loading work.alu
+# Loading work.instruction_memory
+# Loading work.data_memory
+run 3400ns
+# pc = 00000000
+# pcplus4 = 00000004
+# pc_branch = 0000000c
+# pc_src = 0
+# pc_b = 00000004
+# i_branch = 0
+# zf = 0
+# alu_out         2
+# pc = 00000004
+# pcplus4 = 00000008
+# pc_branch = 00000014
+# pc_src = 0
+# pc_b = 00000008
+# i_branch = 0
+# zf = 0
+# alu_out         3
+# pc = 00000008
+# pcplus4 = 0000000c
+# pc_branch = 0000c08c
+# pc_src = 0
+# pc_b = 0000000c
+# i_branch = 0
+# zf = 0
+# alu_out        24
+# pc = 0000000c
+# pcplus4 = 00000010
+# pc_branch = 00000070
+# pc_src = 0
+# pc_b = 00000060
+# i_branch = 0
+# zf = 1
+# alu_out         0
+# pc = 00000060
+# pcplus4 = 00000064
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000064
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000064
+# pcplus4 = 00000068
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000068
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000068
+# pcplus4 = 0000006c
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 0000006c
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 0000006c
+# pcplus4 = 00000070
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000070
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000070
+# pcplus4 = 00000074
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000074
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000074
+# pcplus4 = 00000078
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000078
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000078
+# pcplus4 = 0000007c
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 0000007c
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 0000007c
+# pcplus4 = 00000080
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000080
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000080
+# pcplus4 = 00000084
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000084
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000084
+# pcplus4 = 00000088
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000088
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000088
+# pcplus4 = 0000008c
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 0000008c
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 0000008c
+# pcplus4 = 00000090
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000090
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000090
+# pcplus4 = 00000094
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000094
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000094
+# pcplus4 = 00000098
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000098
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000098
+# pcplus4 = 0000009c
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 0000009c
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 0000009c
+# pcplus4 = 000000a0
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 000000a0
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 000000a0
+# pcplus4 = 000000a4
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 000000a4
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 000000a4
+# pcplus4 = 000000a8
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 000000a8
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 000000a8
+# pcplus4 = 000000ac
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 000000ac
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 000000ac
+# pcplus4 = 000000b0
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 000000b0
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 000000b0
+# pcplus4 = 000000b4
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 000000b4
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 000000b4
+# pcplus4 = 000000b8
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 000000b8
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 000000b8
+# pcplus4 = 000000bc
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 000000bc
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 000000bc
+# pcplus4 = 000000c0
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 000000c0
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 000000c0
+# pcplus4 = 000000c4
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 000000c4
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 000000c4
+# pcplus4 = 000000c8
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 000000c8
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 000000c8
+# pcplus4 = 000000cc
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 000000cc
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 000000cc
+# pcplus4 = 000000d0
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 000000d0
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 000000d0
+# pcplus4 = 000000d4
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 000000d4
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 000000d4
+# pcplus4 = 000000d8
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 000000d8
+# i_branch = 0
+# zf = x
+# alu_out         x
+# ** Note: $stop    : E:/fpga/labs/mips/mips_core_test.v(30)
+#    Time: 3400 ns  Iteration: 0  Instance: /mips_core_test
+# Break in Module mips_core_test at E:/fpga/labs/mips/mips_core_test.v line 30
+quit -sim
+# End time: 17:21:33 on Mar 04,2019, Elapsed time: 0:10:54
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work E:/fpga/labs/mips/mips_core_test.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:21:36 on Mar 04,2019
+# vlog -reportprogress 300 -work work E:/fpga/labs/mips/mips_core_test.v 
+# -- Compiling module mips_core_test
+# 
+# Top level modules:
+# 	mips_core_test
+# End time: 17:21:36 on Mar 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.mips_core_test
+# vsim work.mips_core_test 
+# Start time: 17:21:41 on Mar 04,2019
+# Loading work.mips_core_test
+# Loading work.mips
+# Loading work.controller
+# Loading work.main_control
+# Loading work.alu_decoder
+# Loading work.datapath
+# Loading work.mux2in1
+# Loading work.pc_jmp
+# Loading work.shift_left_by_2
+# Loading work.adder
+# Loading work.pc
+# Loading work.register_file
+# Loading work.sign_extend
+# Loading work.alu
+# Loading work.instruction_memory
+# Loading work.data_memory
+run 3400ns
+# pc = 00000000
+# pcplus4 = 00000004
+# pc_branch = 0000000c
+# pc_src = 0
+# pc_b = 00000004
+# i_branch = 0
+# zf = 0
+# alu_out         2
+# pc = 00000004
+# pcplus4 = 00000008
+# pc_branch = 00000014
+# pc_src = 0
+# pc_b = 00000008
+# i_branch = 0
+# zf = 0
+# alu_out         3
+# pc = 00000008
+# pcplus4 = 0000000c
+# pc_branch = 0000c08c
+# pc_src = 0
+# pc_b = 0000000c
+# i_branch = 0
+# zf = 0
+# alu_out        24
+# pc = 0000000c
+# pcplus4 = 00000010
+# pc_branch = 00000040
+# pc_src = 0
+# pc_b = 00000030
+# i_branch = 0
+# zf = 1
+# alu_out         0
+# pc = 00000030
+# pcplus4 = 00000034
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000034
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000034
+# pcplus4 = 00000038
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000038
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000038
+# pcplus4 = 0000003c
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 0000003c
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 0000003c
+# pcplus4 = 00000040
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000040
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000040
+# pcplus4 = 00000044
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000044
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000044
+# pcplus4 = 00000048
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000048
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000048
+# pcplus4 = 0000004c
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 0000004c
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 0000004c
+# pcplus4 = 00000050
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000050
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000050
+# pcplus4 = 00000054
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000054
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000054
+# pcplus4 = 00000058
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000058
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000058
+# pcplus4 = 0000005c
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 0000005c
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 0000005c
+# pcplus4 = 00000060
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000060
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000060
+# pcplus4 = 00000064
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000064
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000064
+# pcplus4 = 00000068
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000068
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000068
+# pcplus4 = 0000006c
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 0000006c
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 0000006c
+# pcplus4 = 00000070
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000070
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000070
+# pcplus4 = 00000074
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000074
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000074
+# pcplus4 = 00000078
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000078
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000078
+# pcplus4 = 0000007c
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 0000007c
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 0000007c
+# pcplus4 = 00000080
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000080
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000080
+# pcplus4 = 00000084
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000084
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000084
+# pcplus4 = 00000088
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000088
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000088
+# pcplus4 = 0000008c
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 0000008c
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 0000008c
+# pcplus4 = 00000090
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000090
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000090
+# pcplus4 = 00000094
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000094
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000094
+# pcplus4 = 00000098
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000098
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000098
+# pcplus4 = 0000009c
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 0000009c
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 0000009c
+# pcplus4 = 000000a0
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 000000a0
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 000000a0
+# pcplus4 = 000000a4
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 000000a4
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 000000a4
+# pcplus4 = 000000a8
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 000000a8
+# i_branch = 0
+# zf = x
+# alu_out         x
+# ** Note: $stop    : E:/fpga/labs/mips/mips_core_test.v(30)
+#    Time: 3400 ns  Iteration: 0  Instance: /mips_core_test
+# Break in Module mips_core_test at E:/fpga/labs/mips/mips_core_test.v line 30
+quit -sim
+# End time: 17:26:14 on Mar 04,2019, Elapsed time: 0:04:33
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work E:/fpga/labs/mips/mips_core_test.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:26:21 on Mar 04,2019
+# vlog -reportprogress 300 -work work E:/fpga/labs/mips/mips_core_test.v 
+# -- Compiling module mips_core_test
+# 
+# Top level modules:
+# 	mips_core_test
+# End time: 17:26:21 on Mar 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.mips_core_test
+# vsim work.mips_core_test 
+# Start time: 17:26:24 on Mar 04,2019
+# Loading work.mips_core_test
+# Loading work.mips
+# Loading work.controller
+# Loading work.main_control
+# Loading work.alu_decoder
+# Loading work.datapath
+# Loading work.mux2in1
+# Loading work.pc_jmp
+# Loading work.shift_left_by_2
+# Loading work.adder
+# Loading work.pc
+# Loading work.register_file
+# Loading work.sign_extend
+# Loading work.alu
+# Loading work.instruction_memory
+# Loading work.data_memory
+run 3400ns
+# pc = 00000000
+# pcplus4 = 00000004
+# pc_branch = 0000000c
+# pc_src = 0
+# pc_b = 00000004
+# i_branch = 0
+# zf = 0
+# alu_out         2
+# pc = 00000004
+# pcplus4 = 00000008
+# pc_branch = 00000014
+# pc_src = 0
+# pc_b = 00000008
+# i_branch = 0
+# zf = 0
+# alu_out         3
+# pc = 00000008
+# pcplus4 = 0000000c
+# pc_branch = 0000c08c
+# pc_src = 0
+# pc_b = 0000000c
+# i_branch = 0
+# zf = 0
+# alu_out        24
+# pc = 0000000c
+# pcplus4 = 00000010
+# pc_branch = 00000030
+# pc_src = 0
+# pc_b = 00000020
+# i_branch = 0
+# zf = 1
+# alu_out         0
+# pc = 00000020
+# pcplus4 = 00000024
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000024
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000024
+# pcplus4 = 00000028
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000028
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000028
+# pcplus4 = 0000002c
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 0000002c
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 0000002c
+# pcplus4 = 00000030
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000030
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000030
+# pcplus4 = 00000034
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000034
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000034
+# pcplus4 = 00000038
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000038
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000038
+# pcplus4 = 0000003c
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 0000003c
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 0000003c
+# pcplus4 = 00000040
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000040
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000040
+# pcplus4 = 00000044
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000044
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000044
+# pcplus4 = 00000048
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000048
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000048
+# pcplus4 = 0000004c
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 0000004c
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 0000004c
+# pcplus4 = 00000050
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000050
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000050
+# pcplus4 = 00000054
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000054
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000054
+# pcplus4 = 00000058
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000058
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000058
+# pcplus4 = 0000005c
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 0000005c
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 0000005c
+# pcplus4 = 00000060
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000060
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000060
+# pcplus4 = 00000064
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000064
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000064
+# pcplus4 = 00000068
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000068
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000068
+# pcplus4 = 0000006c
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 0000006c
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 0000006c
+# pcplus4 = 00000070
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000070
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000070
+# pcplus4 = 00000074
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000074
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000074
+# pcplus4 = 00000078
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000078
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000078
+# pcplus4 = 0000007c
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 0000007c
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 0000007c
+# pcplus4 = 00000080
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000080
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000080
+# pcplus4 = 00000084
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000084
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000084
+# pcplus4 = 00000088
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000088
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000088
+# pcplus4 = 0000008c
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 0000008c
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 0000008c
+# pcplus4 = 00000090
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000090
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000090
+# pcplus4 = 00000094
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000094
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000094
+# pcplus4 = 00000098
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000098
+# i_branch = 0
+# zf = x
+# alu_out         x
+# ** Note: $stop    : E:/fpga/labs/mips/mips_core_test.v(30)
+#    Time: 3400 ns  Iteration: 0  Instance: /mips_core_test
+# Break in Module mips_core_test at E:/fpga/labs/mips/mips_core_test.v line 30
+quit -sim
+# End time: 17:31:16 on Mar 04,2019, Elapsed time: 0:04:52
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work E:/fpga/labs/mips/mips_core_test.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:31:29 on Mar 04,2019
+# vlog -reportprogress 300 -work work E:/fpga/labs/mips/mips_core_test.v 
+# -- Compiling module mips_core_test
+# 
+# Top level modules:
+# 	mips_core_test
+# End time: 17:31:29 on Mar 04,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.mips_core_test
+# vsim work.mips_core_test 
+# Start time: 17:31:33 on Mar 04,2019
+# Loading work.mips_core_test
+# Loading work.mips
+# Loading work.controller
+# Loading work.main_control
+# Loading work.alu_decoder
+# Loading work.datapath
+# Loading work.mux2in1
+# Loading work.pc_jmp
+# Loading work.shift_left_by_2
+# Loading work.adder
+# Loading work.pc
+# Loading work.register_file
+# Loading work.sign_extend
+# Loading work.alu
+# Loading work.instruction_memory
+# Loading work.data_memory
+run 3400ns
+# pc = 00000000
+# pcplus4 = 00000004
+# pc_branch = 0000000c
+# pc_src = 0
+# pc_b = 00000004
+# i_branch = 0
+# zf = 0
+# alu_out         2
+# pc = 00000004
+# pcplus4 = 00000008
+# pc_branch = 00000014
+# pc_src = 0
+# pc_b = 00000008
+# i_branch = 0
+# zf = 0
+# alu_out         3
+# pc = 00000008
+# pcplus4 = 0000000c
+# pc_branch = 0000c08c
+# pc_src = 0
+# pc_b = 0000000c
+# i_branch = 0
+# zf = 0
+# alu_out        24
+# pc = 0000000c
+# pcplus4 = 00000010
+# pc_branch = 00000028
+# pc_src = 0
+# pc_b = 00000018
+# i_branch = 0
+# zf = 1
+# alu_out         0
+# pc = 00000018
+# pcplus4 = 0000001c
+# pc_branch = 000060a4
+# pc_src = 0
+# pc_b = 0000001c
+# i_branch = 0
+# zf = 0
+# alu_out        12
+# pc = 0000001c
+# pcplus4 = 00000020
+# pc_branch = 00000060
+# pc_src = 0
+# pc_b = 00000020
+# i_branch = 0
+# zf = 0
+# alu_out        28
+# pc = 00000020
+# pcplus4 = 00000024
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000024
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000024
+# pcplus4 = 00000028
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000028
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000028
+# pcplus4 = 0000002c
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 0000002c
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 0000002c
+# pcplus4 = 00000030
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000030
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000030
+# pcplus4 = 00000034
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000034
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000034
+# pcplus4 = 00000038
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000038
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000038
+# pcplus4 = 0000003c
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 0000003c
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 0000003c
+# pcplus4 = 00000040
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000040
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000040
+# pcplus4 = 00000044
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000044
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000044
+# pcplus4 = 00000048
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000048
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000048
+# pcplus4 = 0000004c
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 0000004c
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 0000004c
+# pcplus4 = 00000050
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000050
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000050
+# pcplus4 = 00000054
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000054
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000054
+# pcplus4 = 00000058
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000058
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000058
+# pcplus4 = 0000005c
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 0000005c
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 0000005c
+# pcplus4 = 00000060
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000060
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000060
+# pcplus4 = 00000064
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000064
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000064
+# pcplus4 = 00000068
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000068
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000068
+# pcplus4 = 0000006c
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 0000006c
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 0000006c
+# pcplus4 = 00000070
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000070
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000070
+# pcplus4 = 00000074
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000074
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000074
+# pcplus4 = 00000078
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000078
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000078
+# pcplus4 = 0000007c
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 0000007c
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 0000007c
+# pcplus4 = 00000080
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000080
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000080
+# pcplus4 = 00000084
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000084
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000084
+# pcplus4 = 00000088
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000088
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 00000088
+# pcplus4 = 0000008c
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 0000008c
+# i_branch = 0
+# zf = x
+# alu_out         x
+# pc = 0000008c
+# pcplus4 = 00000090
+# pc_branch = xxxxxxxx
+# pc_src = 0
+# pc_b = 00000090
+# i_branch = 0
+# zf = x
+# alu_out         x
+# ** Note: $stop    : E:/fpga/labs/mips/mips_core_test.v(30)
+#    Time: 3400 ns  Iteration: 0  Instance: /mips_core_test
+# Break in Module mips_core_test at E:/fpga/labs/mips/mips_core_test.v line 30
+quit -sim
+# End time: 17:33:24 on Mar 04,2019, Elapsed time: 0:01:51
+# Errors: 0, Warnings: 0

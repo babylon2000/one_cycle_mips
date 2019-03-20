@@ -1,0 +1,361 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/fpga/labs/mips/simulation/modelsim
+vadder
+Z1 !s110 1551712178
+!i10b 1
+!s100 lHZc=9bNcM[zQB<GH;IG:0
+IIPh=LaZ[Tm5bFUVcK]5>m1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1551194341
+8E:/fpga/labs/mips/adder.v
+FE:/fpga/labs/mips/adder.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1551712178.000000
+!s107 E:/fpga/labs/mips/adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/fpga/labs/mips|E:/fpga/labs/mips/adder.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+E:/fpga/labs/mips
+Z7 tCvgOpt 0
+valu
+R1
+!i10b 1
+!s100 9J;5Oi?O;?MTXB<gTzZ<Z1
+IfzfGkEDVPlXJOm<K^icKE0
+R2
+R0
+w1551440874
+8E:/fpga/labs/mips/alu.v
+FE:/fpga/labs/mips/alu.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/fpga/labs/mips/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/fpga/labs/mips|E:/fpga/labs/mips/alu.v|
+!i113 1
+R5
+R6
+R7
+valu_decoder
+Z8 !s110 1551712179
+!i10b 1
+!s100 M0AG52H=7YYz5347`d:O22
+If0WGP;mDH3?nkak9:fmIM0
+R2
+R0
+w1551704064
+8E:/fpga/labs/mips/alu_decoder.v
+FE:/fpga/labs/mips/alu_decoder.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z9 !s108 1551712179.000000
+!s107 E:/fpga/labs/mips/alu_decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/fpga/labs/mips|E:/fpga/labs/mips/alu_decoder.v|
+!i113 1
+R5
+R6
+R7
+vcontroller
+R8
+!i10b 1
+!s100 =`_]bK:dL2ZQGS[mEmldU1
+Id;<AYRbWVT@0HH?keFAFW1
+R2
+R0
+w1551711854
+8E:/fpga/labs/mips/controller.v
+FE:/fpga/labs/mips/controller.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 E:/fpga/labs/mips/controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/fpga/labs/mips|E:/fpga/labs/mips/controller.v|
+!i113 1
+R5
+R6
+R7
+vdata_memory
+!s110 1551712180
+!i10b 1
+!s100 oMi;fbe@O2kjg8KQSDoi50
+I7ij9m6EJU>]SZfgeeYkKV0
+R2
+R0
+w1551274445
+8E:/fpga/labs/mips/data_memory.v
+FE:/fpga/labs/mips/data_memory.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 E:/fpga/labs/mips/data_memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/fpga/labs/mips|E:/fpga/labs/mips/data_memory.v|
+!i113 1
+R5
+R6
+R7
+vdatapath
+R8
+!i10b 1
+!s100 eG_Qa4G9OzMUM2DF?@9R30
+IST[En0_E==hFz^]ggk<7c1
+R2
+R0
+w1551710805
+8E:/fpga/labs/mips/datapath.v
+FE:/fpga/labs/mips/datapath.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 E:/fpga/labs/mips/datapath.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/fpga/labs/mips|E:/fpga/labs/mips/datapath.v|
+!i113 1
+R5
+R6
+R7
+vinstruction_memory
+R8
+!i10b 1
+!s100 JLo565FjXV>8RJ42N[3Rk3
+IQ9WR2@BnSbXSPNC2c2m1d2
+R2
+R0
+w1551269806
+8E:/fpga/labs/mips/instruction_memory.v
+FE:/fpga/labs/mips/instruction_memory.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 E:/fpga/labs/mips/instruction_memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/fpga/labs/mips|E:/fpga/labs/mips/instruction_memory.v|
+!i113 1
+R5
+R6
+R7
+vmain_control
+R1
+!i10b 1
+!s100 mlC]QKEK2j;036FcgN3F10
+I4hgHAE4S4;Z`85E`o:eKH2
+R2
+R0
+w1551711416
+8E:/fpga/labs/mips/main_control.v
+FE:/fpga/labs/mips/main_control.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/fpga/labs/mips/main_control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/fpga/labs/mips|E:/fpga/labs/mips/main_control.v|
+!i113 1
+R5
+R6
+R7
+vmips
+R8
+!i10b 1
+!s100 QGQ7AAzd]N0W=00BjF3291
+I78=aHG5X>m5`B8`>MMJXQ1
+R2
+R0
+w1551711495
+8E:/fpga/labs/mips/mips.v
+FE:/fpga/labs/mips/mips.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 E:/fpga/labs/mips/mips.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/fpga/labs/mips|E:/fpga/labs/mips/mips.v|
+!i113 1
+R5
+R6
+R7
+vmips_core_test
+!s110 1551713489
+!i10b 1
+!s100 A<cMN>YoY5I65P[<O0QXP0
+IeW?>QSYP1B74^BZQXDVd<3
+R2
+R0
+w1551702784
+8E:/fpga/labs/mips/mips_core_test.v
+FE:/fpga/labs/mips/mips_core_test.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1551713489.000000
+!s107 E:/fpga/labs/mips/mips_core_test.v|
+!s90 -reportprogress|300|-work|work|E:/fpga/labs/mips/mips_core_test.v|
+!i113 1
+o-work work
+R7
+vmux2in1
+R1
+!i10b 1
+!s100 EBk=k6adU5[99>bc15bPD0
+IP0d0V1EcBj]<^ODd?^2jO2
+R2
+R0
+w1551283305
+8E:/fpga/labs/mips/mux2in1.v
+FE:/fpga/labs/mips/mux2in1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/fpga/labs/mips/mux2in1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/fpga/labs/mips|E:/fpga/labs/mips/mux2in1.v|
+!i113 1
+R5
+R6
+R7
+vpc
+R1
+!i10b 1
+!s100 Yl:S_4ae3LE>1@4U@3H:82
+IG`Alf6zeClDhRc0Kca3hV0
+R2
+R0
+w1551194191
+8E:/fpga/labs/mips/pc.v
+FE:/fpga/labs/mips/pc.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/fpga/labs/mips/pc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/fpga/labs/mips|E:/fpga/labs/mips/pc.v|
+!i113 1
+R5
+R6
+R7
+vpc_jmp
+R8
+!i10b 1
+!s100 zeEZ;ZU?7<TgTW:fSQjWO3
+I28GkSJMz5PW_5O]k0GX@l2
+R2
+R0
+w1551709742
+8E:/fpga/labs/mips/pc_jmp.v
+FE:/fpga/labs/mips/pc_jmp.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 E:/fpga/labs/mips/pc_jmp.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/fpga/labs/mips|E:/fpga/labs/mips/pc_jmp.v|
+!i113 1
+R5
+R6
+R7
+vregister_file
+R1
+!i10b 1
+!s100 4L6X1M_7dQY@lRJbg90H[2
+I5lhW@og?IkiTSiYfQV73N3
+R2
+R0
+w1551212484
+8E:/fpga/labs/mips/register_file.v
+FE:/fpga/labs/mips/register_file.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/fpga/labs/mips/register_file.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/fpga/labs/mips|E:/fpga/labs/mips/register_file.v|
+!i113 1
+R5
+R6
+R7
+vshift_left_by_2
+R8
+!i10b 1
+!s100 4:jfE1MH4PFSgBlVf1?UC2
+ISZfm]TG@>XN7n2;@:EnTm3
+R2
+R0
+w1551441247
+8E:/fpga/labs/mips/shift_left_by_2.v
+FE:/fpga/labs/mips/shift_left_by_2.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 E:/fpga/labs/mips/shift_left_by_2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/fpga/labs/mips|E:/fpga/labs/mips/shift_left_by_2.v|
+!i113 1
+R5
+R6
+R7
+vsign_extend
+R1
+!i10b 1
+!s100 X8oM5kK8hXSZXMfG]5nS81
+I2ATo1i9FhA@GCI?jOO4n]0
+R2
+R0
+w1551212529
+8E:/fpga/labs/mips/sign_extend.v
+FE:/fpga/labs/mips/sign_extend.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1551712177.000000
+!s107 E:/fpga/labs/mips/sign_extend.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/fpga/labs/mips|E:/fpga/labs/mips/sign_extend.v|
+!i113 1
+R5
+R6
+R7
